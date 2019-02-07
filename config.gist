@@ -1,0 +1,31 @@
+Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+Set-CornerNavigationOptions -EnableUpperRightCornerShowCharms -EnableUpperLeftCornerSwitchApps -EnableUsePowerShellOnWinX
+
+cinst dotnet4.5
+cinst git
+cinst git-credential-winstore
+cinst poshgit
+cinst windowsazurepowershell
+
+cinst nodejs.install
+cinst ruby
+cinst python2
+
+cinst dotpeek
+cinst putty
+cinst sourcetree
+cinst sysinternals
+cinst diffmerge
+
+cinst lastpass
+cinst visualstudiocode
+cinst cyberduck
+cinst markdownpad2
+
+cinst inkscape
+cinst paint.net
+
+cinst googlechrome
+cinst firefox-dev -pre
+cinst fiddler4
